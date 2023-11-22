@@ -8,7 +8,7 @@ raw_data="""<User version="2.0" xmlns="http://www.isapi.org/ver20/XMLSchema">
  <enabled>true</enabled>
  <userName>admin</userName>
  <password>New_Pass</password>
- <keypadPassword>Cam12345678</keypadPassword>
+ <keypadPassword>New_Pass</keypadPassword>
  <loginPassword>Old_Pass</loginPassword>
  <userOperateType>1</userOperateType>
  <bondIpAddressList>

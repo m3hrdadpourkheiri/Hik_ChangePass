@@ -39,7 +39,7 @@ for ip in Cameras:
             break
         print('changing password on camera: ',ip)
         url = 'http://'+ip+'/ISAPI/Security/users'
-        response=requests.put(url, auth=HTTPDigestAuth('admin', '12345678p'),data=raw_data)
+        response=requests.put(url, auth=HTTPDigestAuth('admin', '12345678'),data=raw_data)
         tree = ET.ElementTree(ET.fromstring(response.content))
         root = tree.getroot()
         print(root[3].text)
